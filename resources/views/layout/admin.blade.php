@@ -20,7 +20,7 @@
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
-                    <a href="/linktree" class="nav-link">Linktree</a>
+                    <a href="/linktree" class="nav-link sidelink-admin">Linktree</a>
                 </li>
             </ul>
             <hr>

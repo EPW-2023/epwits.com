@@ -17,24 +17,29 @@
 .on-comingsoon-text {
     font-size: 90px;
 }
+
 //responsive breakpoint
 @media screen and (max-width: 1200px) {
     .wrapper-comingsoon-text {
         flex-direction: column-reverse;
     }
 }
+
 @media screen and (max-width: 768px) {
     .on-comingsoon-text {
         font-size: 60px;
     }
+
     .logo-epw {
         width: 90px;
     }
 }
+
 @media screen and (max-width: 576px) {
     .on-comingsoon-text {
         font-size: 40px;
     }
+
     .logo-epw {
         width: 80px;
     }
