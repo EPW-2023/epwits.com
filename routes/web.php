@@ -61,3 +61,8 @@ Route::get('/not-admin', function () {
 Route::get('/navbar', function(){
     return view('partials.navbar');
 });
+
+//footer partials 
+Route::get('/footer', function(){
+    return view('partials.footer');
+});

@@ -7318,6 +7318,12 @@ textarea.form-control-lg {
     border: none;
   }
 }
+.footer-epw {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 30vh;
+}
+
 .align-baseline {
   vertical-align: baseline !important;
 }
