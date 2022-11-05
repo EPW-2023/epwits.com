@@ -56,13 +56,3 @@ Route::prefix('admin-panel')->group(function () {
 Route::get('/not-admin', function () {
     return view('not-admin');
 });
-
-//navbar partials
-Route::get('/navbar', function(){
-    return view('partials.navbar');
-});
-
-//footer partials 
-Route::get('/footer', function(){
-    return view('partials.footer');
-});
