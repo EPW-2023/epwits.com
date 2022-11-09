@@ -41,7 +41,7 @@ class AuthController extends Controller
 
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
-            return redirect()->intended('/admin-panel');
+            return redirect()->intended('/admin');
         }
 
         return redirect('/not-admin')->with('LoginError', 'Login Failed!');

@@ -44,7 +44,7 @@ class LinktreeController extends Controller
         ]);
 
         Linktree::create($validatedData);
-        return redirect('/linktree');
+        return redirect('/admin/linktree');
     }
 
     /**
@@ -86,7 +86,7 @@ class LinktreeController extends Controller
         ];
         $validatedData = $request->validate($rules);
         Linktree::where('id', $linktree->id)->update($validatedData);
-        return redirect('/linktree');
+        return redirect('/admin/linktree');
     }
 
     /**
@@ -98,6 +98,6 @@ class LinktreeController extends Controller
     public function destroy(Linktree $linktree)
     {
         Linktree::destroy($linktree->id);
-        return redirect('/linktree');
+        return redirect('/admin/linktree');
     }
 }

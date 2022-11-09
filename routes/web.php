@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\LinktreeController;
+use App\Http\Controllers\ShortlinkController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,11 +15,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/success', function () {
-    return view('success');
-});
-
 Route::get('/', function () {
     return redirect(route('coming-soon'));
 });
@@ -28,8 +24,6 @@ Route::get('/help', function () {
 Route::get('/coming-soon', function () {
     return view('errors.comingsoon');
 })->name('coming-soon');
-Route::resource('/linktree', LinktreeController::class)->middleware('auth');
-
 //Auth
 // Route::get('/register', [AuthController::class, 'getRegister']);
 // Route::post('/register', [AuthController::class, 'postRegister'])->name(
@@ -38,21 +32,24 @@ Route::resource('/linktree', LinktreeController::class)->middleware('auth');
 Route::get('/admin-login', [AuthController::class, 'getLogin'])->name('login');
 Route::post('/admin-login', [AuthController::class, 'authenticate']);
 Route::post('/logout', [AuthController::class, 'logout']);
-
-//Admin Panel
-Route::get('/admin-panel', function () {
-    return view('admin.admin');
-})
-    ->middleware('auth')
-    ->name('admin-panel');
-
-Route::prefix('admin-panel')->group(function () {
-    Route::get('/users', function () {
-        return view('success');
-    });
-});
-
 //Not an admin :v
 Route::get('/not-admin', function () {
     return view('not-admin');
 });
+
+//Admin Panel
+Route::prefix('admin')
+    ->middleware('auth')
+    ->group(function () {
+        Route::get('/', function () {
+            return view('admin.admin');
+        })
+            ->middleware('auth')
+            ->name('admin-panel');
+        Route::resource('/linktree', LinktreeController::class);
+
+        //shortlink
+        Route::resource('/shortlink', ShortlinkController::class);
+    });
+//shortlink finished (always in bottom)
+Route::get('/{shortlink:short}', [ShortlinkController::class, 'show']);

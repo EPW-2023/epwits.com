@@ -15,7 +15,6 @@
                             <h1 class="on-comingsoon-text fw-bold">COMING SOON</h1>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
