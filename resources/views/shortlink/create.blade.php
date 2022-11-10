@@ -1,7 +1,7 @@
 @extends('layout.admin')
 @section('content')
-    <h1>Create New Shortern Link</h1>
     <div class="container">
+        <h1>Create New Shortern Link</h1>
         <div class="card p-4">
             <div class="container mx-auto">
                 <form action="/admin/shortlink" method="POST">
@@ -13,6 +13,7 @@
                     <div class="mb-3">
                         <label class="form-label" for="short">Short</label>
                         <input class="form-control" type="text" id="short" name="short">
+                        <label class="form-label small d-block">Contoh : SuratPeminjamanEPW</label>
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="original">Original</label>

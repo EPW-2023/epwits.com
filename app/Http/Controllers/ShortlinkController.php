@@ -42,6 +42,7 @@ class ShortlinkController extends Controller
             'short' => ['required', 'unique:shortlinks'],
             'original' => ['required', 'url'],
         ]);
+        $validatedData['user_id'] = auth()->user()->id;
         Shortlink::create($validatedData);
         return redirect('/admin/shortlink')->with(
             'success',

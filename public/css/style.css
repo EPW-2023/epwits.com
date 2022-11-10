@@ -7244,6 +7244,10 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+.original-link {
+  word-wrap: break-word;
+}
+
 .bg-login {
   background-color: #e5e7eb;
   height: 100vh;
