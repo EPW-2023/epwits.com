@@ -17,19 +17,20 @@
             <tbody>
                 @foreach ($shortlinks as $item)
                     <tr>
-                        <td>{{ $item->name }}</td>
-                        <td>
+                        <td class="text-center">{{ $item->name }}</td>
+                        <td class="text-center">
                             <a href="https://epwits.org/{{ $item->short }}" class="text-decoration-none"
                                 target="_blank">https://epwits.org/{{ $item->short }}</a>
                         </td>
                         <td>
-                            <a href="{{ $item->original }}" class="text-decoration-none original-link"
-                                target="_blank">{{ $item->original }}</a>
+                            <div class="d-flex justify-content-center">
+                                <a href="{{ $item->original }}" class="btn btn-primary original-link"
+                                    target="_blank">Go to original link</a>
+                            </div>
                         </td>
-                        <td>{{ $item->user->username }}</td>
+                        <td class="text-center">{{ $item->user->username }}</td>
                     </tr>
                 @endforeach
-
             </tbody>
         </table>
         <div class="d-flex">
