@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return redirect(route('coming-soon'));
+    return view('index');
 });
 Route::get('/help', function () {
     return view('help');
@@ -25,10 +25,10 @@ Route::get('/coming-soon', function () {
     return view('errors.comingsoon');
 })->name('coming-soon');
 //Auth
-// Route::get('/register', [AuthController::class, 'getRegister']);
-// Route::post('/register', [AuthController::class, 'postRegister'])->name(
-//     'post-register'
-// );
+Route::get('/register', [AuthController::class, 'getRegister']);
+Route::post('/register', [AuthController::class, 'postRegister'])->name(
+    'post-register'
+);
 Route::get('/admin-login', [AuthController::class, 'getLogin'])->name('login');
 Route::post('/admin-login', [AuthController::class, 'authenticate']);
 Route::post('/logout', [AuthController::class, 'logout']);

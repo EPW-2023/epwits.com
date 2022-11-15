@@ -37,8 +37,8 @@
                 <div class="modal-body text-center">
                     <a href="#" class="d-block text-decoration-none my-2 link-modal">Home</a>
                     <a href="#" class="d-block text-decoration-none my-2 link-modal">About</a>
-                    <a href="#" class="d-block text-decoration-none my-2 link-modal">EPC</a>
-                    <a href="#" class="d-block text-decoration-none my-2 link-modal">INJECTION</a>
+                    <a href="https://epc.epwits.org" class="d-block text-decoration-none my-2 link-modal">EPC</a>
+                    <a href="https://injection.epwits.org" class="d-block text-decoration-none my-2 link-modal">INJECTION</a>
                     <a href="#" class="d-block text-decoration-none my-2 link-modal">Merch</a>
                 </div>
             </div>
