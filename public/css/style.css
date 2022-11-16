@@ -279,6 +279,48 @@
   position: absolute;
   border-radius: 23px;
 }
+#what-inside-section .body .foto-epc {
+  background-image: url("../../img/foto-epc.png");
+  height: 350px;
+  width: 250px;
+  border-radius: 23px;
+}
+#what-inside-section .body .foto-epc::before {
+  background-color: rgba(0, 0, 0, 0.37);
+  content: "";
+  height: 350px;
+  width: 250px;
+  position: absolute;
+  border-radius: 23px;
+}
+#what-inside-section .body .foto-injection {
+  background-image: url("../../img/foto-injection.png");
+  height: 350px;
+  width: 250px;
+  border-radius: 23px;
+}
+#what-inside-section .body .foto-injection::before {
+  background-color: rgba(0, 0, 0, 0.37);
+  content: "";
+  height: 350px;
+  width: 250px;
+  position: absolute;
+  border-radius: 23px;
+}
+#what-inside-section .body .foto-merch {
+  background-image: url("../../img/foto-merch.png");
+  height: 350px;
+  width: 250px;
+  border-radius: 23px;
+}
+#what-inside-section .body .foto-merch::before {
+  background-color: rgba(0, 0, 0, 0.37);
+  content: "";
+  height: 350px;
+  width: 250px;
+  position: absolute;
+  border-radius: 23px;
+}
 
 .explore-cta {
   padding: 20px 60px !important;

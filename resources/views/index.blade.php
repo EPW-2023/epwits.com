@@ -30,7 +30,7 @@
             </div>
             <div class="mx-auto second-theme d-flex justify-content-end">
                 <div class="text-center d-flex align-items-start">
-                    <span class="towards me-2">towards</span> Cultural Sustainability
+                    <span class="towards me-2">towards</span> Cultural Sustainability"
                 </div>
             </div>
         </div>
@@ -51,9 +51,9 @@
             </h2>
             <div class="container body d-flex justify-content-center">
                 <div class="foto-tf"></div>
-                <div class="foto-tf"></div>
-                <div class="foto-tf"></div>
-                <div class="foto-tf"></div>
+                <div class="foto-epc"></div>
+                <div class="foto-injection"></div>
+                <div class="foto-merch"></div>
             </div>
         </div>
     </div>

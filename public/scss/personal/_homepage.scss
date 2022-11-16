@@ -133,6 +133,9 @@
   margin-top: 4rem;
   gap: 34px;
 
+  //navigations
+
+  //foto tf
   .foto-tf {
    background-image: url('../../img/foto-tf.png');
    height: 350px;
@@ -141,6 +144,57 @@
   }
 
   .foto-tf::before {
+   background-color: rgba(0, 0, 0, 0.37);
+   content: '';
+   height: 350px;
+   width: 250px;
+   position: absolute;
+   border-radius: 23px;
+  }
+
+  //foto epc
+  .foto-epc {
+   background-image: url('../../img/foto-epc.png');
+   height: 350px;
+   width: 250px;
+   border-radius: 23px;
+  }
+
+  .foto-epc::before {
+   background-color: rgba(0, 0, 0, 0.37);
+   content: '';
+   height: 350px;
+   width: 250px;
+   position: absolute;
+   border-radius: 23px;
+  }
+
+  //foto injection
+  .foto-injection {
+   background-image: url('../../img/foto-injection.png');
+   height: 350px;
+   width: 250px;
+   border-radius: 23px;
+  }
+
+  .foto-injection::before {
+   background-color: rgba(0, 0, 0, 0.37);
+   content: '';
+   height: 350px;
+   width: 250px;
+   position: absolute;
+   border-radius: 23px;
+  }
+
+  //foto merch 
+  .foto-merch {
+   background-image: url('../../img/foto-merch.png');
+   height: 350px;
+   width: 250px;
+   border-radius: 23px;
+  }
+
+  .foto-merch::before {
    background-color: rgba(0, 0, 0, 0.37);
    content: '';
    height: 350px;
