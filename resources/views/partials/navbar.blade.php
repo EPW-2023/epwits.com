@@ -1,4 +1,4 @@
-<nav class="navbar navbar-epw navbar-expand-lg px-5">
+<nav class="navbar navbar-epw navbar-expand-lg">
     <div class="container-fluid">
         <img src="{{ asset('img/Logo EPW.png') }}" width="60" alt="">
         <a class="navbar-brand ms-4" href="#">EPW 2023</a>

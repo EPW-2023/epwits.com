@@ -1,0 +1,189 @@
+//assets css
+.batik-homepage-1 {
+ position: absolute;
+ max-width: 100%;
+ z-index: -2;
+}
+
+.pita-homepage-2 {
+ position: absolute;
+ max-width: 100%;
+ z-index: -2;
+ top: 100vh;
+}
+
+.line-element {
+ position: absolute;
+ max-width: 100%;
+ z-index: -2;
+ top: 160vh;
+}
+
+//Main CSS
+.bg-homepage-1 {
+ font-family: $font-inter;
+ height: 500vh;
+ background: linear-gradient(180deg, #1E1661 0%, #222996 100%);
+ position: relative;
+ z-index: 2;
+
+ .hero-section {
+  gap: 50px;
+
+  .welcometo-text {
+   color: #fff;
+   font-size: 20px;
+  }
+
+  .big-text-epw {
+   font-size: 72px;
+   font-weight: 700;
+   background: linear-gradient(0deg, #CCE0F4 -28.08%, #C3E3F5 -3.74%, #A9ECF9 37.24%, #80FBFE 89.75%, #78FEFF 98.72%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+   .eng {
+    margin-top: -10px;
+   }
+
+   .pw {
+    margin-top: -30px;
+    // margin-bottom: -30px;
+   }
+  }
+
+  .year-2023 {
+   margin-top: -10px;
+   font-weight: 700;
+   font-size: 55px;
+   background: linear-gradient(0deg, #CCE0F4 -2.17%, #CDD7EE 9.07%, #D1BDDD 28.48%, #D694C1 53%, #DE5B9B 80.59%, #E33280 98.98%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  }
+ }
+
+ //Theme Section
+ #theme-section {
+  margin-top: 300px;
+
+  .first-theme {
+   width: 65%;
+   font-size: 44px;
+   font-weight: 700;
+   background: linear-gradient(0deg, #CCE0F4 -28.08%, #C3E3F5 -3.74%, #A9ECF9 37.24%, #80FBFE 89.75%, #78FEFF 98.72%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+   .the {
+    font-size: 30px;
+   }
+  }
+
+  .second-theme {
+   width: 65%;
+   font-size: 44px;
+   font-weight: 700;
+   background: linear-gradient(0deg, #CCE0F4 -2.17%, #CDD7EE 9.07%, #D1BDDD 28.48%, #D694C1 53%, #DE5B9B 80.59%, #E33280 98.98%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+   .towards {
+    font-size: 30px;
+   }
+  }
+ }
+
+ // Section EPW Adalah
+ #epw-adalah-section {
+  margin: auto;
+  margin-top: 30vh;
+  width: 65%;
+
+  .header {
+   font-size: 44px;
+   font-weight: 700;
+   background: linear-gradient(0deg, #CCE0F4 -28.08%, #C3E3F5 -3.74%, #A9ECF9 37.24%, #80FBFE 89.75%, #78FEFF 98.72%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  }
+
+  .body {
+   color: #fff;
+   font-weight: 500;
+   font-size: 20px;
+   text-align: justify;
+   text-justify: inter-word;
+  }
+ }
+}
+
+//What's Inside Section
+#what-inside-section {
+ margin-top: 30vh;
+
+ .header {
+  font-size: 44px;
+  font-weight: 700;
+  background: linear-gradient(0deg, #CCE0F4 -28.08%, #C3E3F5 -3.74%, #A9ECF9 37.24%, #80FBFE 89.75%, #78FEFF 98.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+
+ .body {
+  margin-top: 4rem;
+  gap: 34px;
+
+  .foto-tf {
+   background-image: url('../../img/foto-tf.png');
+   height: 350px;
+   width: 250px;
+   border-radius: 23px;
+  }
+
+  .foto-tf::before {
+   background-color: rgba(0, 0, 0, 0.37);
+   content: '';
+   height: 350px;
+   width: 250px;
+   position: absolute;
+   border-radius: 23px;
+  }
+ }
+}
+
+.explore-cta {
+ padding: 20px 60px !important;
+ border-radius: 211px !important;
+ border: none !important;
+ background-color: #fff !important;
+ color: #1F1762 !important;
+ font-weight: 700 !important;
+ font-size: 18px;
+
+ .fa-arrow-down {
+  font-size: 20px;
+ }
+}
+
+
+
+
+
+.bg-homepage-2 {
+ padding-top: 500px;
+ height: 100vh;
+ background: linear-gradient(180deg, #20207B 0%, #222996 128.84%);
+ position: relative;
+ z-index: -1;
+
+}
+
+.bg-homepage-3 {
+ height: 100vh;
+ background: linear-gradient(180deg, #22278F 0%, #222996 128.84%);
+}
+
+.bg-homepage-4 {
+ height: 100vh;
+ background: linear-gradient(180deg, #22278F 0%, #222996 128.84%);
+}
