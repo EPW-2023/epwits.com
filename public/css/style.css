@@ -171,9 +171,17 @@
   top: 160vh;
 }
 
+.batik-homepage-bawah {
+  transform: rotate(180deg);
+  position: absolute;
+  max-width: 100%;
+  z-index: -2;
+  bottom: 0;
+}
+
 .bg-homepage-1 {
   font-family: "Inter", sans-serif;
-  height: 500vh;
+  padding-bottom: 20vh;
   background: linear-gradient(180deg, #1E1661 0%, #222996 100%);
   position: relative;
   z-index: 2;
@@ -231,6 +239,9 @@
 .bg-homepage-1 #theme-section .second-theme .towards {
   font-size: 30px;
 }
+.bg-homepage-1 .pita-wrapper {
+  position: relative;
+}
 .bg-homepage-1 #epw-adalah-section {
   margin: auto;
   margin-top: 30vh;
@@ -253,6 +264,8 @@
 
 #what-inside-section {
   margin-top: 30vh;
+  width: 100%;
+  height: auto;
 }
 #what-inside-section .header {
   font-size: 44px;
@@ -265,11 +278,29 @@
   margin-top: 4rem;
   gap: 34px;
 }
+#what-inside-section .body .foto-box {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  cursor: pointer;
+}
 #what-inside-section .body .foto-tf {
   background-image: url("../../img/foto-tf.png");
   height: 350px;
   width: 250px;
   border-radius: 23px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+#what-inside-section .body .foto-tf .inner-text {
+  z-index: 2;
+  color: #fff;
+  padding: 2rem 1rem;
+}
+#what-inside-section .body .foto-tf .inner-text h5 {
+  margin: 0;
+}
+#what-inside-section .body .foto-tf .inner-text p {
+  font-size: 12px;
 }
 #what-inside-section .body .foto-tf::before {
   background-color: rgba(0, 0, 0, 0.37);
@@ -278,12 +309,27 @@
   width: 250px;
   position: absolute;
   border-radius: 23px;
+  cursor: pointer;
 }
 #what-inside-section .body .foto-epc {
   background-image: url("../../img/foto-epc.png");
   height: 350px;
   width: 250px;
   border-radius: 23px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+#what-inside-section .body .foto-epc .inner-text {
+  z-index: 2;
+  color: #fff;
+  padding: 2rem 1rem;
+}
+#what-inside-section .body .foto-epc .inner-text h5 {
+  margin: 0;
+}
+#what-inside-section .body .foto-epc .inner-text p {
+  font-size: 12px;
 }
 #what-inside-section .body .foto-epc::before {
   background-color: rgba(0, 0, 0, 0.37);
@@ -292,12 +338,27 @@
   width: 250px;
   position: absolute;
   border-radius: 23px;
+  cursor: pointer;
 }
 #what-inside-section .body .foto-injection {
   background-image: url("../../img/foto-injection.png");
   height: 350px;
   width: 250px;
   border-radius: 23px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+#what-inside-section .body .foto-injection .inner-text {
+  z-index: 2;
+  color: #fff;
+  padding: 2rem 1rem;
+}
+#what-inside-section .body .foto-injection .inner-text h5 {
+  margin: 0;
+}
+#what-inside-section .body .foto-injection .inner-text p {
+  font-size: 12px;
 }
 #what-inside-section .body .foto-injection::before {
   background-color: rgba(0, 0, 0, 0.37);
@@ -306,12 +367,27 @@
   width: 250px;
   position: absolute;
   border-radius: 23px;
+  cursor: pointer;
 }
 #what-inside-section .body .foto-merch {
   background-image: url("../../img/foto-merch.png");
   height: 350px;
   width: 250px;
   border-radius: 23px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+#what-inside-section .body .foto-merch .inner-text {
+  z-index: 2;
+  color: #fff;
+  padding: 2rem 1rem;
+}
+#what-inside-section .body .foto-merch .inner-text h5 {
+  margin: 0;
+}
+#what-inside-section .body .foto-merch .inner-text p {
+  font-size: 12px;
 }
 #what-inside-section .body .foto-merch::before {
   background-color: rgba(0, 0, 0, 0.37);
@@ -320,6 +396,22 @@
   width: 250px;
   position: absolute;
   border-radius: 23px;
+  cursor: pointer;
+}
+
+#event-timeline {
+  margin-top: 5rem;
+}
+#event-timeline .header {
+  font-size: 44px;
+  font-weight: 700;
+  background: linear-gradient(0deg, #CCE0F4 -28.08%, #C3E3F5 -3.74%, #A9ECF9 37.24%, #80FBFE 89.75%, #78FEFF 98.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#event-timeline .event-image .image {
+  width: 80%;
+  height: auto;
 }
 
 .explore-cta {
@@ -426,10 +518,15 @@
     border: none;
   }
 }
+.modal-box {
+  z-index: 10;
+}
+
 .footer-epw {
   font-family: "Inter", sans-serif;
   width: 60%;
   padding: 40px 30px;
+  color: #fff !important;
 }
 
 .footer-logo-epw img {

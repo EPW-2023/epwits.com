@@ -3,7 +3,6 @@
     <div class="bg-homepage-1">
         <img class="batik-homepage-1" src="{{ asset('img/batik-homepage-1.svg') }}" alt="batik mega mendung lazu">
         <img class="pita-homepage-2" src="{{ asset('img/pita-homepage-1.svg') }}" alt="wave">
-        <img class="line-element" src="{{ asset('img/line-element.png') }}" alt="wave line element ">
         @include('partials.navbar')
         <div class="container hero-section mt-5 d-flex justify-content-center align-items-center">
             <div>
@@ -45,16 +44,55 @@
             </div>
         </div>
         {{-- End of EPW Adalah --}}
+        {{-- What inside  --}}
+        <img class="line-element" src="{{ asset('img/line-element.png') }}" alt="wave line element ">
         <div id="what-inside-section">
             <h2 class="header text-center">
                 What's Inside?
             </h2>
             <div class="container body d-flex justify-content-center">
-                <div class="foto-tf"></div>
-                <div class="foto-epc"></div>
-                <div class="foto-injection"></div>
-                <div class="foto-merch"></div>
+                <a href="#" class="text-decoration-none">
+                    <div class="foto-box foto-tf">
+                        <div class="inner-text">
+                            <h5 class="fw-bold">About TF</h5>
+                            <p>Discover more about Teknik Fisika ITS</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://epc.epwits.org/" class="text-decoration-none">
+                    <div class="foto-box foto-epc">
+                        <div class="inner-text">
+                            <h5 class="fw-bold">EPC</h5>
+                            <p>Competition held by Teknik Fisika ITS</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://injection.epwits.org/" class="text-decoration-none">
+                    <div class="foto-box foto-injection">
+                        <div class="inner-text">
+                            <h5 class="fw-bold">INJECTION</h5>
+                            <p>Competition held by Teknik Fisika ITS</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <div class="foto-box foto-merch">
+                        <div class="inner-text">
+                            <h5 class="fw-bold">Merch</h5>
+                            <p>Check out our official merchandise</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
+        {{-- End of What inside --}}
+        <div id="event-timeline">
+            <h2 class="text-center header">Event Timeline</h2>
+            <div class="event-image mt-5 d-flex justify-content-center">
+                <img src="{{ asset('img/image-timeline.webp') }}" class="img-fluid image" alt="timeline epw" width="900">
+            </div>
+        </div>
+        <img class="batik-homepage-bawah" src="{{ asset('img/batik-homepage-1.svg') }}" alt="batik mega mendung lazu bawah">
+        @include('partials.footer')
     </div>
 @endsection

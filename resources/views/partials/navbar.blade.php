@@ -9,39 +9,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-epw" id="nav-link-epw" href="#">Home</a>
+                    <a class="nav-link nav-link-epw" id="nav-link-epw" href="https://epwits.org">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-epw" id="nav-link-epw" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-epw" id="nav-link-epw" href="#">EPC</a>
+                    <a class="nav-link nav-link-epw" id="nav-link-epw" href="https://epc.epwits.org">EPC</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-epw" id="nav-link-epw" href="#">INJECTION</a>
+                    <a class="nav-link nav-link-epw" id="nav-link-epw" href="https://injection.epwits.org">INJECTION</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-epw" id="nav-link-epw" href="#">MERCH</a>
                 </li>
             </ul>
-        </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">EPW 2023</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                    <a href="#" class="d-block text-decoration-none my-2 link-modal">Home</a>
-                    <a href="#" class="d-block text-decoration-none my-2 link-modal">About</a>
-                    <a href="https://epc.epwits.org" class="d-block text-decoration-none my-2 link-modal">EPC</a>
-                    <a href="https://injection.epwits.org" class="d-block text-decoration-none my-2 link-modal">INJECTION</a>
-                    <a href="#" class="d-block text-decoration-none my-2 link-modal">Merch</a>
-                </div>
-            </div>
         </div>
     </div>
 </nav>
