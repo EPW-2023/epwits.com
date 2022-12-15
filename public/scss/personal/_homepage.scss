@@ -69,6 +69,10 @@
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
   }
+
+  .future-city {
+   width: 500px;
+  }
  }
 
  //Theme Section
@@ -76,6 +80,8 @@
   margin-top: 300px;
 
   .first-theme {
+   display: flex;
+   justify-content: start;
    width: 65%;
    font-size: 44px;
    font-weight: 700;
@@ -89,6 +95,8 @@
   }
 
   .second-theme {
+   display: flex;
+   justify-content: end;
    width: 65%;
    font-size: 44px;
    font-weight: 700;
@@ -134,9 +142,10 @@
 
 //What's Inside Section
 #what-inside-section {
+ // background-color: red;
  margin-top: 30vh;
- width: 100%;
  height: auto;
+
  .header {
   font-size: 44px;
   font-weight: 700;

@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+ .batik-homepage-1 {
+  position: absolute;
+  max-width: 100%;
+  height: fit-content;
+  z-index: -2;
+ }
+
+ .pita-homepage-2 {
+  position: absolute;
+  max-width: 100%;
+  z-index: -2;
+  top: 125vh;
+ }
+
+ .line-element {
+  position: absolute;
+  max-width: 100%;
+  z-index: -2;
+  top: 217vh;
+ }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {
+ 
+}

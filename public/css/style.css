@@ -214,10 +214,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.bg-homepage-1 .hero-section .future-city {
+  width: 500px;
+}
 .bg-homepage-1 #theme-section {
   margin-top: 300px;
 }
 .bg-homepage-1 #theme-section .first-theme {
+  display: flex;
+  justify-content: start;
   width: 65%;
   font-size: 44px;
   font-weight: 700;
@@ -229,6 +234,8 @@
   font-size: 30px;
 }
 .bg-homepage-1 #theme-section .second-theme {
+  display: flex;
+  justify-content: end;
   width: 65%;
   font-size: 44px;
   font-weight: 700;
@@ -264,7 +271,6 @@
 
 #what-inside-section {
   margin-top: 30vh;
-  width: 100%;
   height: auto;
 }
 #what-inside-section .header {
@@ -518,8 +524,8 @@
     border: none;
   }
 }
-.modal-box {
-  z-index: 10;
+.navbar-toggler {
+  color: red !important;
 }
 
 .footer-epw {
@@ -613,6 +619,63 @@
   }
   .linkedin-text {
     text-align: center;
+  }
+}
+@media screen and (max-width: 1127px) {
+  #what-inside-section {
+    margin-top: 10vh;
+  }
+}
+@media screen and (max-width: 1127px) {
+  .bg-homepage-1 .hero-section {
+    gap: 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bg-homepage-1 .hero-section .future-city {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bg-homepage-1 .hero-section .future-city {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .batik-homepage-1 {
+    position: absolute;
+    max-width: 100%;
+    height: fit-content;
+    z-index: -2;
+  }
+  .pita-homepage-2 {
+    position: absolute;
+    max-width: 100%;
+    z-index: -2;
+    top: 125vh;
+  }
+  .line-element {
+    position: absolute;
+    max-width: 100%;
+    z-index: -2;
+    top: 217vh;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .bg-homepage-1 #theme-section {
+    margin-top: 20px;
+  }
+  .bg-homepage-1 #theme-section .first-theme {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 34px;
+  }
+  .bg-homepage-1 #theme-section .second-theme {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 34px;
   }
 }
 

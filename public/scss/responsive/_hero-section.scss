@@ -1,0 +1,17 @@
+@media screen and (max-width: 1127px) {
+ .bg-homepage-1 .hero-section {
+  gap: 5px;
+ }
+}
+
+@media screen and (max-width: 768px) {
+ .bg-homepage-1 .hero-section .future-city {
+  width: 400px;
+ }
+}
+
+@media screen and (max-width: 576px) {
+ .bg-homepage-1 .hero-section .future-city {
+  width: 300px;
+ }
+}
